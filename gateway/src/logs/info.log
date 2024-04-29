@@ -1,0 +1,33 @@
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:51:42"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:52:11"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:52:16"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:52:55"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:52:58"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:53:32"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:54:28"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:54:34"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:54:42"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:54:48"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:55:00"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:55:04"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 15:55:12"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:38:17"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:38:20"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:38:38"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:39:00"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:39:06"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:42:12"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-04-28 16:43:27"}
+{"level":"error","message":"Register failed: Unsupported protocol localhost: with payload {}","timestamp":"2024-04-28 16:43:27"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-04-28 16:44:40"}
+{"level":"error","message":"Register failed: Unsupported protocol localhost: with payload {\"username\":\"yoni\",\"password\":123456}","timestamp":"2024-04-28 16:44:40"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:44:56"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:44:59"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:45:00"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:45:12"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:45:15"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-04-28 16:45:19"}
+{"level":"error","message":"Register failed: Unsupported protocol localhost: with payload {\"username\":\"yoni\",\"password\":123456}","timestamp":"2024-04-28 16:45:19"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:46:51"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-04-28 16:46:53"}
+{"level":"info","message":"Register success: User yoni registered successfully.","timestamp":"2024-04-28 16:46:53"}
