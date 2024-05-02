@@ -6,7 +6,6 @@ const router = express.Router();
 // Route to register a new user
 router.post("/register", async (req, res) => {
   try {
-    console.log("URL", `${process.env.user_service_url}/users/register`);
     const response = await axios.post(
       `${process.env.user_service_url}/users/register`,
       req.body,

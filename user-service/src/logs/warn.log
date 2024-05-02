@@ -1,0 +1,80 @@
+{"level":"error","message":"Error hashing password: Cannot read properties of undefined (reading 'toString')","stack":"TypeError: Cannot read properties of undefined (reading 'toString')\n    at hashPassword (C:\\Users\\Yehonatan\\Desktop\\development\\personal\\microservices_server\\user-service\\src\\tools\\bcryptjs_hash.js:8:55)\n    at async Object.registerUser (C:\\Users\\Yehonatan\\Desktop\\development\\personal\\microservices_server\\user-service\\src\\service\\userService.js:8:28)\n    at async register (C:\\Users\\Yehonatan\\Desktop\\development\\personal\\microservices_server\\user-service\\src\\controllers\\userController.js:8:18)","timestamp":"2024-05-02 18:20:14"}
+{"level":"error","message":"Error creating user in DAL: notNull Violation: User.password cannot be null","timestamp":"2024-05-02 18:20:14"}
+{"level":"error","message":"Error creating user in Service: notNull Violation: User.password cannot be null","timestamp":"2024-05-02 18:20:14"}
+{"level":"error","message":"Registration failed for email: SDDF22sd - notNull Violation: User.password cannot be null","timestamp":"2024-05-02 18:20:14"}
+{"level":"error","message":"Error creating user in DAL: Validation error","timestamp":"2024-05-02 18:20:50"}
+{"level":"error","message":"Error creating user in Service: Validation error","timestamp":"2024-05-02 18:20:50"}
+{"level":"error","message":"Registration failed for email: SDDF22sd - Validation error","timestamp":"2024-05-02 18:20:50"}
+{"level":"error","message":"Login error for email: admin: Illegal arguments: number, string","timestamp":"2024-05-02 18:43:24"}
+{"level":"error","message":"Login error: Illegal arguments: number, string","timestamp":"2024-05-02 18:43:24"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:44:00"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:44:00"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:44:51"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:44:51"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:46:10"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:46:10"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:46:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:46:12"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:46:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:46:13"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:46:14"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:46:14"}
+{"level":"error","message":"Login error for email: admin: Invalid credentials","timestamp":"2024-05-02 18:46:31"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 18:46:31"}
+{"level":"error","message":"Error creating user in DAL: notNull Violation: User.username cannot be null","timestamp":"2024-05-02 19:19:37"}
+{"level":"error","message":"Error creating user in Service: notNull Violation: User.username cannot be null","timestamp":"2024-05-02 19:19:37"}
+{"level":"error","message":"Registration failed for email: admin@gmail.com - notNull Violation: User.username cannot be null","timestamp":"2024-05-02 19:19:37"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:20:14"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:20:14"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:20:24"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:20:24"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:21:15"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:21:15"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:22:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:22:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Illegal arguments: number, string","timestamp":"2024-05-02 19:23:11"}
+{"level":"error","message":"Login error: Illegal arguments: number, string","timestamp":"2024-05-02 19:23:11"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:24:53"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:24:53"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:24:56"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:24:56"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:09"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:09"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:22"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:22"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:25:27"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:25:27"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:26:46"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:26:46"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:26:49"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:26:49"}
+{"level":"error","message":"Login error for email: admin@gmail.com: Invalid credentials","timestamp":"2024-05-02 19:27:02"}
+{"level":"error","message":"Login error: Invalid credentials","timestamp":"2024-05-02 19:27:02"}

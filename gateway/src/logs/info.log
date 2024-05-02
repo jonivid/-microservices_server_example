@@ -31,3 +31,138 @@
 {"level":"info","message":"Gateway running on port 3001","timestamp":"2024-04-28 16:46:51"}
 {"level":"info","message":"POST /users/register","timestamp":"2024-04-28 16:46:53"}
 {"level":"info","message":"Register success: User yoni registered successfully.","timestamp":"2024-04-28 16:46:53"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-01 20:56:18"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 20:56:50"}
+{"level":"info","message":"Register success: User yoni registered successfully.","timestamp":"2024-05-01 20:56:50"}
+{"level":"info","message":"GET /users/","timestamp":"2024-05-01 20:57:19"}
+{"level":"info","message":"GET /users/login","timestamp":"2024-05-01 20:58:24"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-01 20:58:31"}
+{"level":"info","message":"Login success: User yoni logged in successfully.","timestamp":"2024-05-01 20:58:31"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 21:46:35"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456}","timestamp":"2024-05-01 21:46:35"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 21:47:25"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-01 21:47:25"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 21:47:49"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-01 21:47:49"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 21:49:00"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-01 21:49:00"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:00:33"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:00:33"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:01:04"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:01:04"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:01:16"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:01:16"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:02:02"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:02:02"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:02:21"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:02:21"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:14:23"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:14:23"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:14:47"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:14:47"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:18:07"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:18:07"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:18:07"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:18:07"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:22:34"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:22:34"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:23:03"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"admin\",\"password\":123456,\"email\":\"SDDFsd\"}","timestamp":"2024-05-01 22:23:03"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:23:20"}
+{"level":"info","message":"Register success: User admin registered successfully.","timestamp":"2024-05-01 22:23:20"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-01 22:24:22"}
+{"level":"info","message":"Register success: User adm2in registered successfully.","timestamp":"2024-05-01 22:24:22"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-02 18:19:08"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 18:19:54"}
+{"level":"info","message":"Register success: User adm211in registered successfully.","timestamp":"2024-05-02 18:19:54"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 18:20:14"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"adm211in\",\"email\":\"SDDF22sd\"}","timestamp":"2024-05-02 18:20:14"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 18:20:50"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"adm211in\",\"password\":123456,\"email\":\"SDDF22sd\"}","timestamp":"2024-05-02 18:20:50"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-02 18:22:25"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 18:43:11"}
+{"level":"info","message":"Register success: User jon registered successfully.","timestamp":"2024-05-02 18:43:11"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:43:24"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:43:24"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:43:59"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:44:00"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:44:51"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:44:51"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:46:10"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:46:10"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:46:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:46:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:46:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:46:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:46:14"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"username\":\"jon\",\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:46:14"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 18:46:31"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin\"}","timestamp":"2024-05-02 18:46:31"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 19:19:37"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:19:37"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-02 19:20:02"}
+{"level":"info","message":"Register success: User Admin registered successfully.","timestamp":"2024-05-02 19:20:02"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:20:14"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:20:14"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:20:24"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:20:24"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:21:15"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:21:15"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:22:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:22:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:23:11"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:23:11"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:24:53"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:24:53"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:24:56"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:24:56"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:09"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:09"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:10"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:11"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:11"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:11"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:11"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:12"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:12"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:13"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:22"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:22"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:27"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":\"123456\",\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:25:27"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:25:39"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:25:39"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:26:46"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:26:46"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:26:49"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:26:49"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:27:01"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:27:02"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:28:01"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:01"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:28:36"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:36"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:28:45"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:45"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:28:47"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:47"}

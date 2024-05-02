@@ -1,55 +1,37 @@
 // Import user model or service if you're separating business logic from controller
 // const UserModel = require('../models/userModel');
 const logger = require("../tools/logger"); // Ensure the logger is properly imported
+const userService = require("../service/userService");
 
-exports.getAllUsers = async (req, res) => {
+const register = async (req, res) => {
   try {
-    // Logic to fetch all users
-    const users = [{ name: "Alice" }, { name: "Bob" }];
-    // Send JSON response
-    res.json({ users });
+    const user = await userService.registerUser(req.body);
+    logger.info(`User registration successful for email: ${req.body.email}`);
+
+    res
+      .status(201)
+      .json({ message: "User registered successfully", userId: user.id });
   } catch (error) {
-    logger.error(`Failed to retrieve users: ${error.message}`);
-    res.status(500).json({ error: "Failed to retrieve users" });
+    logger.error(
+      `Registration failed for email: ${req.body.email} - ${error.message}`,
+    );
+
+    res.status(500).json({ message: error.message });
+  }
+};
+const login = async (req, res) => {
+  try {
+    const result = await userService.loginUser(req.body);
+    logger.info(`Login successful for user: ${req.body.email}`);
+
+    res.json({ token: result.token });
+  } catch (error) {
+    logger.error(`Login error: ${error.message}`);
+    res.status(401).json({ message: error.message });
   }
 };
 
-exports.getUserById = async (req, res) => {
-  try {
-    // Logic to get a specific user by ID
-    res.send(`User ${req.params.id} details`);
-  } catch (error) {
-    logger.error(`Failed to retrieve user ${req.params.id}: ${error.message}`);
-    res.status(500).send(`Failed to retrieve user with ID ${req.params.id}`);
-  }
-};
-
-exports.createUser = async (req, res) => {
-  try {
-    // Logic to create a new user
-    res.status(201).send("User created");
-  } catch (error) {
-    logger.error(`Failed to create user: ${error.message}`);
-    res.status(500).send("Failed to create user");
-  }
-};
-
-exports.updateUser = async (req, res) => {
-  try {
-    // Logic to update an existing user
-    res.send(`User ${req.params.id} updated`);
-  } catch (error) {
-    logger.error(`Failed to update user ${req.params.id}: ${error.message}`);
-    res.status(500).send(`Failed to update user with ID ${req.params.id}`);
-  }
-};
-
-exports.deleteUser = async (req, res) => {
-  try {
-    // Logic to delete a user
-    res.send(`User ${req.params.id} deleted`);
-  } catch (error) {
-    logger.error(`Failed to delete user ${req.params.id}: ${error.message}`);
-    res.status(500).send(`Failed to delete user with ID ${req.params.id}`);
-  }
+module.exports = {
+  register,
+  login,
 };
