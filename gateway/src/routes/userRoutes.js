@@ -46,5 +46,30 @@ router.post("/login", async (req, res) => {
       .send(error.message);
   }
 });
+router.post("/setup_2fa", async (req, res) => {
+  try {
+    const response = await axios.post(
+      `${process.env.user_service_url}/users/setup_2fa`,
+      req.body,
+    );
+    logger.info(`2FA setup have completed successfully`);
+    res.status(response.status).send(response.data);
+  } catch (error) {
+    logger.error(
+      `2FA setup failed: ${error.message} with payload ${JSON.stringify(
+        req.body,
+      )}`,
+    );
+    if (error.response) {
+      // Forward the user service's response body if it exists
+      res.status(error.response.status).send(error.response.data);
+    } else {
+      // General error message for other types of errors
+      res
+        .status(500)
+        .send({ error: "Internal Server Error", message: error.message });
+    }
+  }
+});
 
 module.exports = router;

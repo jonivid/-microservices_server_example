@@ -54,3 +54,23 @@
 {"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:26:46"}
 {"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:26:49"}
 {"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-02 19:27:02"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 11:24:19"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 11:24:21"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 12:06:14"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"email\":\"yonivid@gmail.com\",\"password\":123456}","timestamp":"2024-05-05 15:34:51"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 404 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:40:34"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:40:59"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:41:23"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:41:53"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:42:13"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:42:34"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:43:45"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:44:42"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:45:12"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:47:21"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:48:06"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:48:40"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:52:37"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:53:28"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:53:31"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:57:45"}

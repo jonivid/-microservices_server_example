@@ -106,3 +106,5 @@
 {"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:28"}
 {"level":"error","message":"Error creating user in Service: 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:31"}
 {"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:31"}
+{"level":"error","message":"Error creating user in Service: 2FA is already set up for this user.","timestamp":"2024-05-05 16:57:45"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:57:45"}

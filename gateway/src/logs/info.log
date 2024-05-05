@@ -166,3 +166,87 @@
 {"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:45"}
 {"level":"info","message":"POST /users/login","timestamp":"2024-05-02 19:28:47"}
 {"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-02 19:28:47"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-03 10:44:54"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-03 10:46:49"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-03 10:46:49"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-03 11:24:19"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 11:24:19"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-03 11:24:21"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 11:24:21"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-03 12:06:14"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"admin@gmail.com\"}","timestamp":"2024-05-03 12:06:14"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-03 12:08:09"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-03 12:08:09"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-04 21:41:33"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-04 21:42:16"}
+{"level":"info","message":"Register success: User jonivid registered successfully.","timestamp":"2024-05-04 21:42:16"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 15:17:15"}
+{"level":"info","message":"POST /user/login","timestamp":"2024-05-05 15:18:14"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:18:30"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:18:30"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:34:51"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"email\":\"yonivid@gmail.com\",\"password\":123456}","timestamp":"2024-05-05 15:34:51"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:35:52"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:35:52"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:43:47"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:43:47"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:43:55"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:43:55"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:43:56"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:43:56"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:44:44"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:44:44"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:44:45"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:44:45"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:45:08"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:45:08"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-05 15:45:19"}
+{"level":"info","message":"Login success: User undefined logged in successfully.","timestamp":"2024-05-05 15:45:19"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:28:57"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:29:42"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:31"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:33"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:37"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:38"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:41"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:44"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:30:49"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:40:34"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 404 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:40:34"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:40:59"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:40:59"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:41:23"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:41:23"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:41:53"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:41:53"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:42:13"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:42:13"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:42:34"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:42:34"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:43:45"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:43:45"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:44:42"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:44:42"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:45:12"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:45:12"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:47:21"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:47:21"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:48:06"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:48:06"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:48:40"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:48:40"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:49:16"}
+{"level":"info","message":"2FA setup have completed successfully","timestamp":"2024-05-05 16:49:16"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:49:37"}
+{"level":"info","message":"2FA setup have completed successfully","timestamp":"2024-05-05 16:49:37"}
+{"level":"info","message":"GET /png;base64,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","timestamp":"2024-05-05 16:49:58"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:52:37"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 500 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:52:37"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:53:28"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:53:28"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:53:31"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:53:31"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:57:39"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:57:41"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:57:45"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:57:45"}
