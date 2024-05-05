@@ -1,14 +1,8 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("../config/sequelize"); // Adjust the path as needed to import your Sequelize instance
+const sequelize = require("../config/sequelize");
 
-const Role = sequelize.define('Role', {
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false
-    }
-  }, {
-    timestamps: true
-  });
-
+const Role = sequelize.define("Role", {
+  name: { type: DataTypes.STRING, unique: true, allowNull: false },
+});
 
 module.exports = Role;

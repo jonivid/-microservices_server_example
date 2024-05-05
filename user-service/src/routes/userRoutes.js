@@ -3,8 +3,6 @@ const router = express.Router();
 const userController = require("../controllers/userController");
 const logger = require("../tools/logger");
 
-
-
 // Route to create a new user
 router.post(
   "/register",
@@ -22,6 +20,13 @@ router.post(
   },
   userController.login,
 );
-
+router.post(
+  "/setup_2fa",
+  (req, res, next) => {
+    logger.info(`Received 2fa setup request for userId: ${req.body.email}`);
+    next();
+  },
+  userController.setup_2fa,
+);
 
 module.exports = router;

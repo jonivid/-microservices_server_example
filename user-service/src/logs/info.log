@@ -137,3 +137,92 @@
 {"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-02 19:28:47"}
 {"level":"info","message":"JWT created for user: 1","timestamp":"2024-05-02 19:28:47"}
 {"level":"info","message":"Login successful for user: admin@gmail.com","timestamp":"2024-05-02 19:28:47"}
+{"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-03 10:46:49"}
+{"level":"info","message":"JWT created for user: 1","timestamp":"2024-05-03 10:46:49"}
+{"level":"info","message":"Login successful for user: admin@gmail.com","timestamp":"2024-05-03 10:46:49"}
+{"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-03 11:24:19"}
+{"level":"error","message":"Database error in findUserByEmail: User.findOne is not a function","timestamp":"2024-05-03 11:24:19"}
+{"level":"error","message":"Login error for email: admin@gmail.com: User.findOne is not a function","timestamp":"2024-05-03 11:24:19"}
+{"level":"error","message":"Login error: User.findOne is not a function","timestamp":"2024-05-03 11:24:19"}
+{"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-03 11:24:21"}
+{"level":"error","message":"Database error in findUserByEmail: User.findOne is not a function","timestamp":"2024-05-03 11:24:21"}
+{"level":"error","message":"Login error for email: admin@gmail.com: User.findOne is not a function","timestamp":"2024-05-03 11:24:21"}
+{"level":"error","message":"Login error: User.findOne is not a function","timestamp":"2024-05-03 11:24:21"}
+{"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-03 12:06:14"}
+{"level":"error","message":"Database error in findUserByEmail: User.findOne is not a function","timestamp":"2024-05-03 12:06:14"}
+{"level":"error","message":"Login error for email: admin@gmail.com: User.findOne is not a function","timestamp":"2024-05-03 12:06:14"}
+{"level":"error","message":"Login error: User.findOne is not a function","timestamp":"2024-05-03 12:06:14"}
+{"level":"info","message":"Received login request with email: admin@gmail.com","timestamp":"2024-05-03 12:08:09"}
+{"level":"info","message":"JWT created for user: 1","timestamp":"2024-05-03 12:08:09"}
+{"level":"info","message":"Login successful for user: admin@gmail.com","timestamp":"2024-05-03 12:08:09"}
+{"level":"info","message":"Received register request with email: yonivid@gmail.com","timestamp":"2024-05-04 21:42:16"}
+{"level":"info","message":"User registration successful for email: yonivid@gmail.com","timestamp":"2024-05-04 21:42:16"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:18:30"}
+{"level":"info","message":"JWT created for user: 1","timestamp":"2024-05-05 15:18:30"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:18:30"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:34:51"}
+{"level":"error","message":"Login error for email: yonivid@gmail.com: res is not defined","timestamp":"2024-05-05 15:34:51"}
+{"level":"error","message":"Login error: res is not defined","timestamp":"2024-05-05 15:34:51"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:35:52"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:35:52"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:43:47"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:43:47"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:43:55"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:43:55"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:43:56"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:43:56"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:44:44"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:44:44"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:44:45"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:44:45"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:45:08"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:45:08"}
+{"level":"info","message":"Received login request with email: yonivid@gmail.com","timestamp":"2024-05-05 15:45:19"}
+{"level":"info","message":"JWT created for user: 1","timestamp":"2024-05-05 15:45:19"}
+{"level":"info","message":"Login successful for user: yonivid@gmail.com","timestamp":"2024-05-05 15:45:19"}
+{"level":"info","message":"Received 2fa setup request for userId: undefined","timestamp":"2024-05-05 16:40:59"}
+{"level":"info","message":"2fa setup request for userId: undefined completed","timestamp":"2024-05-05 16:40:59"}
+{"level":"error","message":"2fa setup request for userId: undefined - user is not defined","timestamp":"2024-05-05 16:40:59"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:41:23"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:41:23"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:41:23"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:41:53"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:41:53"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:41:53"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:42:13"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:42:13"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:42:13"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:42:34"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:42:34"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:42:34"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:43:45"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:43:45"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:43:45"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:44:42"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:44:42"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:44:42"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:45:12"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:45:12"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:45:12"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:47:21"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:47:21"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:47:21"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:48:06"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:48:06"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:48:06"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:48:40"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:48:40"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - user is not defined","timestamp":"2024-05-05 16:48:40"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:49:16"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:49:16"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:49:37"}
+{"level":"info","message":"2fa setup request for userId: yonivid@gmail.com completed","timestamp":"2024-05-05 16:49:37"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:52:37"}
+{"level":"error","message":"Error creating user in Service: 2FA is already set up for this user.","timestamp":"2024-05-05 16:52:37"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:52:37"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:53:28"}
+{"level":"error","message":"Error creating user in Service: 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:28"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:28"}
+{"level":"info","message":"Received 2fa setup request for userId: yonivid@gmail.com","timestamp":"2024-05-05 16:53:31"}
+{"level":"error","message":"Error creating user in Service: 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:31"}
+{"level":"error","message":"2fa setup request for userId: yonivid@gmail.com - 2FA is already set up for this user.","timestamp":"2024-05-05 16:53:31"}

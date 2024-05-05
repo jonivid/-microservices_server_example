@@ -23,9 +23,14 @@ const User = sequelize.define(
       allowNull: false,
       unique: true,
     },
-    role: {
+    twoFactorSecret: {
       type: DataTypes.STRING,
-      defaultValue: "user",
+      allowNull: true, // It's okay to be NULL initially until 2FA is set up
+      defaultValue: null, // Explicitly setting default as null for clarity
+    },
+    twoFactorEnabled: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false, // Explicitly setting default as false
     },
   },
   {

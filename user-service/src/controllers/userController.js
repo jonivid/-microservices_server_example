@@ -23,15 +23,39 @@ const login = async (req, res) => {
   try {
     const result = await userService.loginUser(req.body);
     logger.info(`Login successful for user: ${req.body.email}`);
-
-    res.json({ token: result.token });
+    if (result.is2fa) {
+      res.json({ is2fa: result.is2fa, userId: result.userId });
+    } else {
+      res.json({
+        is2fa: result.is2fa,
+        userId: result.userId,
+        token: result.token,
+      });
+    }
   } catch (error) {
     logger.error(`Login error: ${error.message}`);
     res.status(401).json({ message: error.message });
   }
 };
 
+const setup_2fa = async (req, res) => {
+  try {
+    const response = await userService.setup_2fa(req.body);
+    logger.info(`2fa setup request for userId: ${req.body.email} completed`);
+    res.status(201).json({
+      qrCode: response,
+    });
+  } catch (error) {
+    logger.error(
+      `2fa setup request for userId: ${req.body.email} - ${error.message}`,
+    );
+
+    res.status(400).json({ error: error.message });
+  }
+};
+
 module.exports = {
   register,
   login,
+  setup_2fa,
 };

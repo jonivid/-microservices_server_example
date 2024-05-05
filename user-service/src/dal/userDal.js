@@ -1,4 +1,4 @@
-const User = require("../models/userModel"); // Sequelize model
+const { User, Role, UserRole } = require("../models/index"); // Sequelize model
 const logger = require("../tools/logger");
 
 const createUser = async (userData) => {
