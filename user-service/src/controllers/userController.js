@@ -3,7 +3,7 @@
 const logger = require("../tools/logger"); // Ensure the logger is properly imported
 const userService = require("../service/userService");
 
-const register = async (req, res) => {
+const register = async (req, res, next) => {
   try {
     const user = await userService.registerUser(req.body);
     logger.info(`User registration successful for email: ${req.body.email}`);
@@ -24,7 +24,7 @@ const login = async (req, res) => {
     const result = await userService.loginUser(req.body);
     logger.info(`Login successful for user: ${req.body.email}`);
     if (result.is2fa) {
-      res.json({ is2fa: result.is2fa, userId: result.userId });
+      res.json(result);
     } else {
       res.json({
         is2fa: result.is2fa,

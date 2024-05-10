@@ -36,10 +36,18 @@ const loginUser = async ({ email, password }) => {
       throw new Error("Invalid credentials");
     }
     if (user.twoFactorEnabled) {
-      // Require 2FA verification
+      const twoFAToken = jwt.sign(
+        { userId: user.id },
+        process.env.TWO_FA_TOKEN_SECRET,
+        {
+          expiresIn: process.env.TWO_FA_TOKEN_EXPIRY,
+        },
+      );
+
       return {
         userId: user.id,
         is2fa: true,
+        twoFAToken
       };
     } else {
       // Password is valid, generate a JWT token

@@ -250,3 +250,64 @@
 {"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-05 16:57:41"}
 {"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-05 16:57:45"}
 {"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {\"email\":\"yonivid@gmail.com\"}","timestamp":"2024-05-05 16:57:45"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 09:50:36"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:07:38"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-10 10:07:38"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:08:12"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-10 10:08:12"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:08:44"}
+{"level":"info","message":"Register success: User yoni registered successfully.","timestamp":"2024-05-10 10:08:44"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:08:46"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"username\":\"yoni\",\"password\":123456,\"email\":\"dDADSda\"}","timestamp":"2024-05-10 10:08:46"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:15:45"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:16:55"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:17:32"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:18:43"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"password\":123456,\"email\":\"yonivid@gmail.com\",\"username\":\"jonivid\"}","timestamp":"2024-05-10 10:18:43"}
+{"level":"info","message":"POST /users/register","timestamp":"2024-05-10 10:18:46"}
+{"level":"error","message":"Register failed: Request failed with status code 500 with payload {\"password\":123456,\"email\":\"yonivid@gmail.com\",\"username\":\"jonivid\"}","timestamp":"2024-05-10 10:18:46"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:18:55"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 10:18:55"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:19:36"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:19:37"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:19:42"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:19:53"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:19:56"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 10:19:56"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:20:04"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:20:06"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:20:20"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:20:22"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:20:30"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:20:31"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:20:57"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:20:58"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:21:01"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:22:13"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:22:25"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 10:22:25"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:22:36"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:22:50"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:48:14"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 10:48:14"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:48:35"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"yonivid@gmail.com\",\"username\":\"jonivid\"}","timestamp":"2024-05-10 10:48:35"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:48:36"}
+{"level":"error","message":"Login failed: Request failed with status code 401 with payload {\"password\":123456,\"email\":\"yonivid@gmail.com\",\"username\":\"jonivid\"}","timestamp":"2024-05-10 10:48:36"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 10:50:31"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 10:50:31"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:51:07"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:51:41"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:53:35"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:53:45"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:54:27"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:54:44"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 10:54:57"}
+{"level":"info","message":"POST /users/login","timestamp":"2024-05-10 11:04:06"}
+{"level":"info","message":"Login success: User jonivid logged in successfully.","timestamp":"2024-05-10 11:04:06"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-10 11:04:38"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {}","timestamp":"2024-05-10 11:04:38"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 11:05:01"}
+{"level":"info","message":"POST /users/setup_2fa","timestamp":"2024-05-10 11:05:04"}
+{"level":"error","message":"2FA setup failed: Request failed with status code 400 with payload {}","timestamp":"2024-05-10 11:05:04"}
+{"level":"info","message":"Gateway running on port 3001","timestamp":"2024-05-10 11:05:22"}

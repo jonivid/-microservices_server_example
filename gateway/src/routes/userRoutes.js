@@ -2,12 +2,13 @@ const express = require("express");
 const axios = require("axios");
 const logger = require("../tools/logger"); // Adjust path as needed
 const router = express.Router();
+const { authMiddleware, auth2FAMiddleware } = require("../middleware/auth");
 
 // Route to register a new user
 router.post("/register", async (req, res) => {
   try {
     const response = await axios.post(
-      `${process.env.user_service_url}/users/register`,
+      `${process.env.USER_SERVICE_URL}/users/register`,
       req.body,
     );
     logger.info(
@@ -30,7 +31,7 @@ router.post("/register", async (req, res) => {
 router.post("/login", async (req, res) => {
   try {
     const response = await axios.post(
-      `${process.env.user_service_url}/users/login`,
+      `${process.env.USER_SERVICE_URL}/users/login`,
       req.body,
     );
     logger.info(
@@ -46,10 +47,11 @@ router.post("/login", async (req, res) => {
       .send(error.message);
   }
 });
-router.post("/setup_2fa", async (req, res) => {
+
+router.post("/setup_2fa", auth2FAMiddleware, async (req, res) => {
   try {
     const response = await axios.post(
-      `${process.env.user_service_url}/users/setup_2fa`,
+      `${process.env.USER_SERVICE_URL}/users/setup_2fa`,
       req.body,
     );
     logger.info(`2FA setup have completed successfully`);
