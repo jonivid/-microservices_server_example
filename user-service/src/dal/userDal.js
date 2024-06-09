@@ -20,8 +20,18 @@ const findUserByEmail = async (email) => {
     throw error;
   }
 };
+const findUserById = async (id) => {
+  try {
+    const user = await User.findOne({ where: { id } });
+    return user;
+  } catch (error) {
+    logger.error(`Database error in findUserByEmail: ${error.message}`);
+    throw error;
+  }
+};
 
 module.exports = {
   createUser,
   findUserByEmail,
+  findUserById,
 };

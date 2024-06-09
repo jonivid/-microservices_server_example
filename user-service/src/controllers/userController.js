@@ -54,8 +54,25 @@ const setup_2fa = async (req, res) => {
   }
 };
 
+const verify2fa = async (req, res) => {
+  try {
+    const { userId, token } = req.body;
+    const result = await userService.verify2FACode(userId, token);
+    res.status(201).json({
+      result,
+    });
+  } catch (error) {
+    logger.error(
+      `Login failed for userId: ${req.body.email} - ${error.message}`,
+    );
+
+    res.status(400).json({ error: error.message });
+  }
+};
+
 module.exports = {
   register,
   login,
   setup_2fa,
+  verify2fa,
 };

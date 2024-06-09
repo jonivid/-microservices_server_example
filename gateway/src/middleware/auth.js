@@ -23,10 +23,9 @@ const auth2FAMiddleware = (req, res, next) => {
       .status(401)
       .json({ message: "Access denied. No token provided." });
   }
-
   try {
     const decoded = jwt.verify(token, process.env.TWO_FA_TOKEN_SECRET);
-    req.user = decoded; // Assuming your payload includes user information
+    req.user = decoded;
     next();
   } catch (error) {
     res.status(400).json({ message: "Invalid token." });

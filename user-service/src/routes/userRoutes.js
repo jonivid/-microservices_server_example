@@ -28,5 +28,13 @@ router.post(
   },
   userController.setup_2fa,
 );
+router.post(
+  "/verify_2fa",
+  (req, res, next) => {
+    logger.info(`Received 2fa verify request for userId: ${req.body.userId}`);
+    next();
+  },
+  userController.verify2fa,
+);
 
 module.exports = router;

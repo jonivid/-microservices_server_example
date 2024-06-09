@@ -47,10 +47,10 @@ const loginUser = async ({ email, password }) => {
       return {
         userId: user.id,
         is2fa: true,
-        twoFAToken
+        twoFAToken,
       };
-    } else {
-      // Password is valid, generate a JWT token
+    } else if (!user.twoFactorEnabled) {
+      //2fa not enabled Password is valid, generate a JWT token
       const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, {
         expiresIn: "8h",
       });
@@ -93,8 +93,44 @@ const setup_2fa = async ({ email }) => {
     throw error;
   }
 };
+
+const verify2FACode = async (userId, token) => {
+  try {
+    // Retrieve user by ID from the database
+    const user = await userDal.findUserById(userId);
+    if (!user) {
+      throw new Error("User not found.");
+    }
+    // Check if 2FA is enabled and there is a secret to verify the token against
+    if (!user.twoFactorEnabled || !user.twoFactorSecret) {
+      throw new Error("2FA is not enabled or not properly set up.");
+    }
+    // Verify the provided 2FA token against the user's stored 2FA secret
+    const verified = speakeasy.totp.verify({
+      secret: user.twoFactorSecret,
+      encoding: "base32",
+      token: token, // The TOTP from the user's authenticator app
+      window: 1, // Allows for a 30-second clock skew in either direction
+    });
+    if (verified) {
+      const jwtToken = jwt.sign({ id: userId }, process.env.JWT_SECRET, {
+        expiresIn: "8h",
+      });
+      return { userId, token: jwtToken };
+    } else {
+      throw new Error("Failed to verify 2FA code");
+    }
+  } catch (error) {
+    // Log the error or handle it as needed
+    console.error(
+      `Error verifying 2FA code for user ${userId}: ${error.message}`,
+    );
+    throw error; // Rethrow the error to be handled by the calling function
+  }
+};
 module.exports = {
   registerUser,
   loginUser,
   setup_2fa,
+  verify2FACode,
 };
